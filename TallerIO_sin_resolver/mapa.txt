@@ -1,0 +1,3 @@
+3 3
+[(BuenosAires,400000),(Rosario,1234567),(MiCiudad,1)]
+[{Rosario,BuenosAires,MiCiudad,BuenosAires},{BuenosAires,Rosario},{BuenosAires,MiCiudad}]

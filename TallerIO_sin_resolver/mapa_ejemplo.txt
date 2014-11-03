@@ -1,0 +1,4 @@
+4 6
+[(Catamarca;100000),(Salta;129312),(Neuquen;129387),(Viedma;32343)]
+[{Catamarca,Salta},{Salta,Catamarca},{Catamarca,Neuquen},{Neuquen,Catamarca},{Neuquen,Viedma},{Viedma,Neuquen}]
+
