@@ -1,0 +1,30 @@
+{
+    ".deps_version": 2, 
+    "g++ -c ./Ciudad.cpp -o ./Ciudad.o -std=c++0x": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "Ciudad.cpp": "input-db1128cd844e7ea8c932073f0b9772ec", 
+        "Ciudad.h": "input-21ae1f20d239287c53f3ceae9c6592df", 
+        "Ciudad.o": "output-252d1f6cc8b6042b56c196a83f2d87b5"
+    }, 
+    "g++ -c ./Mapa.cpp -o ./Mapa.o -std=c++0x": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "Ciudad.h": "input-21ae1f20d239287c53f3ceae9c6592df", 
+        "Mapa.cpp": "input-66385165f4b9b082faa070e6a506e9f9", 
+        "Mapa.h": "input-6123b423a784953851b6eb1553a797d6", 
+        "Mapa.o": "output-ebeb07370d1b6a3398a42dd4f1fa6476"
+    }, 
+    "g++ -c ./main.cpp -o ./main.o -std=c++0x": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "Ciudad.h": "input-21ae1f20d239287c53f3ceae9c6592df", 
+        "Mapa.h": "input-6123b423a784953851b6eb1553a797d6", 
+        "main.cpp": "input-3d59c342a911074cf9452b116debea03", 
+        "main.o": "output-a42e8ebfd0e62ccbf569d684ad9db385"
+    }, 
+    "g++ -o ./taller ./Ciudad.o ./Mapa.o ./main.o": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "Ciudad.o": "input-252d1f6cc8b6042b56c196a83f2d87b5", 
+        "Mapa.o": "input-ebeb07370d1b6a3398a42dd4f1fa6476", 
+        "main.o": "input-a42e8ebfd0e62ccbf569d684ad9db385", 
+        "taller": "output-bc5ae2d042df6fa0db636456c248c160"
+    }
+}

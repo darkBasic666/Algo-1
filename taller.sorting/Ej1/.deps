@@ -1,0 +1,29 @@
+{
+    ".deps_version": 2, 
+    "g++ -c ./auxiliares.cpp -o ./auxiliares.o -std=c++0x": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "auxiliares.cpp": "input-1a2970f2bfed1559afc8a8dee0e518d8", 
+        "auxiliares.h": "input-2ac0a6a698300c072365f55e641604bf", 
+        "auxiliares.o": "output-5ac2194357f369a2498ec275878141f2"
+    }, 
+    "g++ -c ./main.cpp -o ./main.o -std=c++0x": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "auxiliares.h": "input-2ac0a6a698300c072365f55e641604bf", 
+        "main.cpp": "input-e37f38c63e75ed3ab67e479661e15f7d", 
+        "main.o": "output-83a0700d8fb89d54c0c7126c7fcb58c5", 
+        "sorting.h": "input-95b488653b7055412cd439cf3bb7afae"
+    }, 
+    "g++ -c ./sorting.cpp -o ./sorting.o -std=c++0x": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "sorting.cpp": "input-9b208a690e37398de35edd696fa0ffb8", 
+        "sorting.h": "input-95b488653b7055412cd439cf3bb7afae", 
+        "sorting.o": "output-26efdf815edf9213419d61c1bc3c7e1a"
+    }, 
+    "g++ -o ./taller ./sorting.o ./auxiliares.o ./main.o": {
+        ".": "input-5058f1af8388633f609cadb75a75dc9d", 
+        "auxiliares.o": "input-5ac2194357f369a2498ec275878141f2", 
+        "main.o": "input-83a0700d8fb89d54c0c7126c7fcb58c5", 
+        "sorting.o": "input-26efdf815edf9213419d61c1bc3c7e1a", 
+        "taller": "output-4eab0d10ee54b5b37adbae4f622a733c"
+    }
+}
